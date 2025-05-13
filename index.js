@@ -46,8 +46,12 @@ app.post('/signup',async(req,res)=>{
     res.redirect('/dashboard');
     console.log("your cookie ater redirect:",req.cookies.username);
     console.log("hi this is priyanshu")
+<<<<<<< HEAD
     console.log("this is testing.")
    
+=======
+    console.log('hi I am testing git command.')
+>>>>>>> parent of ff5e699 (second commit)
 })
 
 app.get('/signin',(req,res)=>{
